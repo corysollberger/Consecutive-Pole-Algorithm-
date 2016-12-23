@@ -1,0 +1,27 @@
+By: Cory Sollberger | COS 350 | Homework 3
+
+The algorithm basically runs through all possible combinations of triples that can be 
+generated from a user's specified pole lengths.
+
+The System uses 3 nested loops to test for each successful combination, which have
+iteration variables a,b,c, respectively.
+
+Triple represented by (a,b,c), where a, b, and c are integers within the list of pole
+lengths specified by the user. 
+
+All combinations of triples are checked, with each pole length specified.
+
+To test,
+1. Compile and Run
+2. Enter Pole lengths
+3. 0 to end
+4. Displays the variable r, followed by r lines with a lexicographical order of 
+successful combinations
+
+Example:
+	Input: 3 5 10 2 1
+	Output: 2
+			1,2,3
+			1,3,5
+			
+Should work as specified, seems to work for any integer values I have entered
